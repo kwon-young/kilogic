@@ -1,7 +1,7 @@
 	:- use_module(library(dcg/basics)).
 :- use_module(library(dcg/high_order)).
 :- use_module(library(settings)).
-:- use_module(macros).
+:- use_module(library(macros)).
 
 :- setting(rows, positive_integer, 24, 'number of tty rows').
 :- setting(columns, positive_integer, 24, 'number of tty columns').
